@@ -33,6 +33,11 @@ If you find this dataset useful in an academic setting please cite:
 (to be updated)
 
 
+## Download
+
+Please get in touch to download the dataset: (rafael.zequeira@tu-berlin.de)
+
+
 ## References
 
 <a id="1">[1]</a>
