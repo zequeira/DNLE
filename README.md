@@ -6,7 +6,6 @@ The recordings were collected through the audio-web API employing different Wind
 
 The loudness measurements were 50.7dB(A) on average, varying from 30.6dB(A) to 81.3dB(A).
 
-(to be updated)
 
 | Noise Classes | Noise Category           | Files per<br>Category  | Loudness Average<br>(dBA) | min / max <br> dBA |
 | ------------- |:-------------:| -----:|--------:|--------:|
