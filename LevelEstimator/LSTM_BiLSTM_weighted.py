@@ -1,5 +1,5 @@
 """
-This code defines a deep neural network model based on a “Long Short-Term Memory” (LSTM) architecture:
+This code defines and train a deep neural network model based on a "Long Short-Term Memory" (LSTM) architecture using PyTorch:
 
 Layer Type      Number of Layers
 LSTM  		    3
@@ -7,7 +7,7 @@ BiLSTM 		    3
 LSTM  		    3
 Regression	    1
 
-First, the dataset is split into 90% for training and the ret for testing.
+First, the dataset is split into 90% for training and the rest for testing.
 As the dataset is imbalanced, I used K-means clustering on the target variable and computed weights
 based on the resulting groups. Then, I used this weight vector on each training step to correct the result
 of the "loss function".

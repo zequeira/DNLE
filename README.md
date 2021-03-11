@@ -24,6 +24,12 @@ The loudness measurements were 50.7dB(A) on average, varying from 30.6dB(A) to 8
   
   - `{NOISE_TYPE}` - type of environmental background noise,
   - `{NOISE_LEVEL}` - noise level measured in dBA,
+  
+- [FeatureGenerator](FeatureGenerator/)
+Code to extract different spectral and chroma features from the audio files. The output is saved as *.csv. The code is optimized to run parallel.
+
+- [LevelEstimator](LevelEstimator/)
+Code to train and test the model based on a "Long Short-Term Memory" (LSTM) architecture in PyTorch.
 
 
 ## Citing
