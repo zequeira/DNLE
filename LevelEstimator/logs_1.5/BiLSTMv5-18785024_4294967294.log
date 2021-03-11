@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "LSTM_BiLSTM_weighted_v5.py", line 276, in <module>
+    lstm_model.load_state_dict(torch.load('LSTM_BiLSTM_model_weighted_dropout_v2'))
+  File "/home/users/z/zequeira/miniconda3/envs/envTorch/lib/python3.8/site-packages/torch/serialization.py", line 525, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/users/z/zequeira/miniconda3/envs/envTorch/lib/python3.8/site-packages/torch/serialization.py", line 212, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/users/z/zequeira/miniconda3/envs/envTorch/lib/python3.8/site-packages/torch/serialization.py", line 193, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'LSTM_BiLSTM_model_weighted_dropout_v2'
+srun: error: gpu005: task 0: Exited with exit code 1
