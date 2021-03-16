@@ -42,7 +42,9 @@ If you find this dataset useful in an academic setting please cite:
 
 ## Download
 
-Please get in touch to download the dataset: (rafael.zequeira@tu-berlin.de)
+The dataset can be downloaded as a single .zip file (~2.38 GB):
+
+**[Download DNLE dataset](https://depositonce.tu-berlin.de/bitstream/11303/12788/2/audios.zip)**
 
 
 ## References
